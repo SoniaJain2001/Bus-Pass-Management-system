@@ -1,0 +1,53 @@
+﻿@model BusPassManagementSystem.Models.Addbus
+
+@{
+    ViewData["Title"] = "edit";
+}
+<div class="text-center">
+    <b><font face="Times New Roman" size="7" color="black">Update Bus Route</font></b>
+</div>
+<br />
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form asp-action="edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group d-none"> 
+                <label asp-for="Snum" class="control-label"></label>
+                <input asp-for="Snum" class="form-control" />
+                <span asp-validation-for="Snum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BusNo" class="control-label"></label>
+                <input asp-for="BusNo" class="form-control" />
+                <span asp-validation-for="BusNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label"></label>
+                <input asp-for="Source" class="form-control" />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                <input asp-for="Destination" class="form-control" />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfStops" class="control-label"></label>
+                <input asp-for="NoOfStops" class="form-control" />
+                <span asp-validation-for="NoOfStops" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Update" class="btn btn-primary mt-4" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

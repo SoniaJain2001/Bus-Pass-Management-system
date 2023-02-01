@@ -1,0 +1,41 @@
+﻿<div class="text-center">
+    <b><font face="Times New Roman" size="7" color="black">Pass Types</font></b>
+</div>
+<br />
+<div class="text-center">
+    <a href="~/Admin/Create" class="btn btn-dark">Create Pass</a>
+</div>
+<br />
+
+<div>
+    <table class="table table-bordered table-hover">
+        <tr class="bg-dark text-white text-center">
+            <th>Id</th>
+            <th>Passtype</th>
+            <th>Cost</th>
+            <th>Actions</th>
+        </tr>
+        @{
+            try
+            {
+                if (TempData["passtype"] != null)
+                {
+                    foreach (var x in (List<BusPassManagementSystem.Models.passtype>)TempData["passtype"])
+                    {
+                                <tr class="text-center">
+                                    <td>@x.Id</td>
+                                    <td>@x.Passtype</td>
+                                    <td>@x.Cost</td>
+                                    <td>Applypass</td>
+                                </tr>
+                    }
+                }
+            }
+            catch
+            {
+                
+            }
+         
+        }
+    </table>
+</div>

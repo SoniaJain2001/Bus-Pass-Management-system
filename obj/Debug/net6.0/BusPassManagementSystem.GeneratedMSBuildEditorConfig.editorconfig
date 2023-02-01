@@ -1,0 +1,108 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BusPassManagementSystem
+build_property.RootNamespace = BusPassManagementSystem
+build_property.ProjectDir = C:\Users\Soniya Jain\Downloads\BusPassManagementSystem\BusPassManagementSystem\BusPassManagementSystem\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Soniya Jain\Downloads\BusPassManagementSystem\BusPassManagementSystem\BusPassManagementSystem
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/Addbus.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQWRkYnVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/busroute.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cYnVzcm91dGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cZWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSG9tZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Admin/passtype.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5ccGFzc3R5cGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/Frontpage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xGcm9udHBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/Reset.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xSZXNldC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/ULogin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xVTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/buspass/USignup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnVzcGFzc1xVU2lnbnVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/User/Apply.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBcHBseS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/User/ApplyPass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxBcHBseVBhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/User/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/User/viewpass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclx2aWV3cGFzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Soniya Jain/Downloads/BusPassManagementSystem/BusPassManagementSystem/BusPassManagementSystem/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-f8oiifvgpl

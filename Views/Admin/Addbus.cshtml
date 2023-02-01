@@ -1,0 +1,61 @@
+﻿@model BusPassManagementSystem.Models.Addbus
+
+@{
+    ViewData["Title"] = "Addbus";
+}
+<div class="text-center">
+    <b><font face="Times New Roman" size="7" color="black">Add Bus</font></b>
+</div>
+<br />
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form asp-action="Addbus">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="BusNo" class="control-label"></label>
+                <input asp-for="BusNo" class="form-control" />
+                <span asp-validation-for="BusNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label"></label>
+                <input asp-for="Source" class="form-control" />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                <input asp-for="Destination" class="form-control" />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="NoOfStops" class="control-label"></label>
+                <input asp-for="NoOfStops" class="form-control" />
+                <span asp-validation-for="NoOfStops" class="text-danger"></span>
+            </div>
+            <div class="form-group text-center">
+                <input type="submit" value="Addbus" class="btn btn-primary mt-3" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@{
+    try
+    {
+        if(TempData["Bus"] !=null)
+        {
+              <script>
+                swal("Good job!", "Bus added Sucecssfully!", "success");
+           </script>
+        }
+    }
+    catch
+    {
+        
+    }
+}

@@ -1,0 +1,67 @@
+﻿@model IEnumerable<BusPassManagementSystem.Models.passtype>
+
+@{
+    ViewData["Title"] = "Apply";
+}
+<table class="table table-bordered table-hover">
+    <thead class="bg-dark text-white text-center">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passtype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Cost)
+            </th>
+            <th>Action</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passtype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Cost)
+            </td>
+            <td>
+                    @{
+                        if(item.Passtype=="SchoolStudents")
+                        {
+                            <a href="~/User/ApplyPass" class="btn btn-dark">Apply</a>
+                        }
+                        else if(item.Passtype=="CollegeStudents")
+                        {
+                            <a href="~/User/ApplyPass" class="btn btn-warning">Apply</a>
+                        }
+                        else if(item.Passtype=="PhysicallyDisabled")
+                        {
+                            <a href="~/User/ApplyPass" class="btn btn-primary">Apply</a>
+                        }
+                    }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+
+
+
+
+
+
+
+

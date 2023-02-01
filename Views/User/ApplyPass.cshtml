@@ -1,0 +1,106 @@
+﻿@model BusPassManagementSystem.Models.ApplyPass
+
+@{
+    ViewData["Title"] = "ApplyPass";
+}
+<div class="text-center">
+    <b><font face="Times New Roman" size="7" color="black">Apply Pass</font></b>
+</div>
+<br />
+
+
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4">
+        <form asp-action="ApplyPass">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="PassNo" class="control-label"></label>
+                <input asp-for="PassNo" class="form-control" />
+                <span asp-validation-for="PassNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FullName" class="control-label"></label>
+                <input asp-for="FullName" class="form-control" />
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MobileNo" class="control-label"></label>
+                <input asp-for="MobileNo" class="form-control" />
+                <span asp-validation-for="MobileNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailId" class="control-label"></label>
+                <input asp-for="EmailId" class="form-control" />
+                <span asp-validation-for="EmailId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Passtype" class="control-label"></label>
+                <select class="form-control" name="Passtype" id="Passtype">
+                    <option value="SchoolStudents">SchoolStudents</option>
+                    <option value="CollegeStudents">CollegeStudents</option>
+                    <option value="PhysicallyDisabled">PhysicallyDisabled</option>
+                </select>
+                <span asp-validation-for="Passtype" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentityProof" class="control-label"></label>
+                <select class="form-control" name="IdentityProof" id="IdentityProof">
+                    <option value="Adharcard">Adharcard</option>
+                    <option value="Pancard">Pancard</option>
+                </select>
+                <span asp-validation-for="IdentityProof" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="IdentityNo" class="control-label"></label>
+                <input asp-for="IdentityNo" class="form-control" />
+                <span asp-validation-for="IdentityNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Source" class="control-label"></label>
+                <input asp-for="Source" class="form-control" />
+                <span asp-validation-for="Source" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Destination" class="control-label"></label>
+                <input asp-for="Destination" class="form-control" />
+                <span asp-validation-for="Destination" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+@{
+    try
+    {
+        if(TempData["pass"] !=null)
+        {
+            if(TempData["pass"]=="1")
+            {
+                <script>
+                swal("Good job!", "Pass Created Sucecssfully!", "success");
+                </script>
+            }
+            else
+            {
+                <script>
+                swal("Error", "Pass Creation Failed", "error");
+                </script>
+            }
+        }
+    }
+    catch
+    {
+        
+    }
+}

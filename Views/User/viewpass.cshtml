@@ -1,0 +1,73 @@
+﻿@model IEnumerable<BusPassManagementSystem.Models.ApplyPass>
+
+@{
+    ViewData["Title"] = "viewpass";
+}
+
+
+<table class="table table-bordered table-hover">
+    <thead class="bg-dark text-white text-center"> 
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.PassNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MobileNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmailId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Passtype)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentityProof)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdentityNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.PassNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MobileNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Passtype)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentityProof)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdentityNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

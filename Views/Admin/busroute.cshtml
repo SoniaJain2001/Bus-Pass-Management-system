@@ -1,0 +1,56 @@
+﻿@model IEnumerable<BusPassManagementSystem.Models.Addbus>
+
+@{
+    ViewData["Title"] = "busroute";
+}
+<div class="text-center">
+    <b><font face="Times New Roman" size="7" color="black">Bus Route Details</font></b>
+</div>
+<br />
+
+<table class="table table-bordered table-hover">
+    <thead class="bg-dark text-white text-center">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Snum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.BusNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Source)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Destination)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NoOfStops)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Snum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BusNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Source)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Destination)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NoOfStops)
+            </td>
+            <td>
+                <a href="~/Admin/Edit?id=@item.Snum" class="btn btn-warning">Edit Route</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
